@@ -1,0 +1,33 @@
+body{
+    
+    background-size: cover;
+}
+.heading{
+    font-size: 30px;
+    width: 100%;
+    height: 15%;
+    margin: 0px;
+    box-shadow: 10px 10px 10px gray;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+.note{
+    font-size: 20px;
+    color: black;
+    font-style: normal;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: bold;
+}
+#song{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    box-shadow: 10px 10px 10px gray;
+    margin-top: 10px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    
+}
