@@ -1,5 +1,4 @@
 body{
-    
     background-size: cover;
 }
 .heading{
@@ -29,5 +28,16 @@ canvas{
     border: 5px solid rgb(236, 156, 156);
     border-radius: 20px;
     box-shadow: 15px 15x 15px gray;
-    
+    animation-name: colours;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colours{
+    from{
+        box-shadow:5px 5px 50px purple ;
+    }
+        to{
+            box-shadow: 5px 5px 50px orange;
+        }
 }
